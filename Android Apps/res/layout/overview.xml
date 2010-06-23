@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<!--
+		RelativeLayout android:id="@+id/RelativeLayout02"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"> <TextView
+		android:id="@+id/categorylabel" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Category :"
+		android:paddingTop="12dip" android:paddingRight="7dip"> </TextView>
+		<Spinner android:id="@+id/categoryspinner"
+		android:layout_toRightOf="@id/categorylabel"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:prompt="@string/category_prompt"> </Spinner> </RelativeLayout
+	-->
+
+	<TextView android:id="@+id/TextView02" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:text="Overview :"></TextView>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/overview">
+	</EditText>
+
+	<TextView android:id="@+id/TextView03" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Notes :"></TextView>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/notes">
+	</EditText>
+
+	<TextView android:id="@+id/TextView04" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="labels :"></TextView>
+	<EditText android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:id="@+id/labels">
+	</EditText>
+	<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<TextView android:id="@+id/notifylabel" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:paddingTop="12dip" android:paddingRight="5dip" android:text="Notification : ">
+		</TextView>
+
+		<ToggleButton android:layout_width="wrap_content"
+			android:layout_toRightOf="@id/notifylabel"
+			android:layout_height="wrap_content" android:text="Notification"
+			android:id="@+id/togglebutton" android:textOn="On"
+			android:textOff="Off">
+		</ToggleButton>
+		
+	</RelativeLayout>
+	<!--
+		<RelativeLayout android:id="@+id/RelativeLayout01"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"> <TextView
+		android:id="@+id/notifylabel" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:text="Notify?"
+		android:paddingTop="12dip" android:paddingRight="5dip"> </TextView>
+
+		<Spinner android:layout_toRightOf="@id/notifylabel"
+		android:id="@+id/notificationSpinner"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:prompt="@string/notification_prompt"> </Spinner>
+
+		</RelativeLayout>
+	-->
+
+
+
+</LinearLayout>
+ 

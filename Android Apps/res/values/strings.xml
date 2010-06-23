@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="notification_prompt">Yes</string>
+  	<string-array name="notification_array">
+        <item>Yes</item>
+        <item>No</item>      
+    </string-array> 
+    <string name="category_prompt">Select Categories</string>
+    <string-array name="category_array">
+        <item>Notes</item>
+        <item>ToDo</item>
+        <item>Event</item>
+        <item>Appointment</item>
+        <item>Task</item>
+        <item>Travel</item>        
+    </string-array>    
+</resources>
